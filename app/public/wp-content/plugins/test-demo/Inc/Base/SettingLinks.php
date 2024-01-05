@@ -10,7 +10,7 @@ class SettingLinks extends BaseController {
 }
     public function setting_link($links){
         // add custom settings
-        $settings_link = '<a href="http://demo.local/wp-admin/admin.php?page=test_plugin">Settings</a>';
+        $settings_link = '<a href="http://demoproject.local/wp-admin/admin.php?page=test_plugin">Settings</a>';
         array_push( $links, $settings_link );
         return $links;
     }

@@ -61,7 +61,7 @@ class SettingsApi {
         }
         // echo var_dump($this->admin_subpages)    ;
         foreach($this->admin_subpages as $page){
-            add_submenu_page($page["parent_slug"], $page["page_title"],$page["menu_title"], $page["capability"], $page["menu_slug"], $page["callback"], $page["position"]) ;
+            add_submenu_page($page["parent_slug"], $page["page_title"],$page["menu_title"], $page["capability"], $page["menu_slug"], $page["callback"], 110) ;
         }
     } 
 
