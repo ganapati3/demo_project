@@ -1,0 +1,19 @@
+{
+    "name": "ganap/test-demo",
+    "description": "lets started",
+    "type": "project",
+    "license": "gpl",
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./inc"
+        }
+    },
+    "authors": [
+        {
+            "name": "ganapati3",
+            "email": "124158856+ganapati3@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
